@@ -7,7 +7,7 @@ body {
   background: white;
   margin: 0 auto;
   font-family: georgia, times, serif;
-
+  height: 100%;
 }
 
 #header {
@@ -25,21 +25,34 @@ body {
   margin-top: 45px;
   word-spacing: 20px;
   float: right;
-	padding-right: 3%;
+  padding-right: 10px;
+}
+
+#addr {
+  padding-top: 5px;
+  padding-left: 32%;
 }
 
 #page-wrap {
   width: 100%;
   align-content: center;
   display: inline-block;
-  background-color: blue;
 }
 
 #page1 {
   height: 1100px;
   width: 100%;
-  background: #2d862d;
+  background-image: url('images/ca.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 110px;
+}
+
+#list {
+  float: right;
+  margin-right: 10%;
+  padding: 3%;
+  border: 5px inset white;
 }
 
 #pic1 {
@@ -52,28 +65,48 @@ body {
 
 #page2 {
   height: 1100px;
-  width: 100%
-	background: #2d862d;
+  width: 100%;
+  background: #A1AB6D;
   padding-top: 150px;
+  background-image: url('images/teller.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#applyhere {
+  padding-left: 27.5%;
+  padding-bottom: 10px;
+  color: white;
+}
+
+#applyform1 {
+  padding-left: 38%;
+  color: white;
+  padding-top: 30%;
+}
+
+h1 {
+  font: Arial Verdana, sans-serif;
+}
+
+#applyform {
+  padding-left: 38%;
+  color: white;
 }
 
 #page3 {
   height: 1100px;
   width: 100%;
-  background: #2d862d;
+  background: #A1AB6D;
   padding-top: 150px;
-}
-
-#map {
-	background-image: url("https://sites.google.com/site/medright/home/atm1.jpg");
+  background-image: url('images/map.png');
   background-repeat: no-repeat;
-	height: 216px;
-	width: 216px;
+  background-size: contain;
 }
 
-#articleAddress {
-	padding-top: 2%;
-	align-self: center;
+#contactus {
+  float: right;
+  padding-right: 10%;
 }
 
 #header-image {}
@@ -81,6 +114,15 @@ body {
 .page-padding {
   height: 90px;
   width: 100%;
+}
+
+input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 300px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px 18px;
+    border: 1px solid #dbdbdb;
 }
 
 a {
