@@ -6,7 +6,7 @@ body {
   display: flex;
   background: white;
   margin: 0 auto;
-  font-family: georgia, times, serif;
+  font-family: georgia, times, sans-serif;
   height: 100%;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 #page1 {
-  height: 1100px;
+  height: 700px;
   width: 100%;
   background-image: url('images/ca.jpg');
   background-repeat: no-repeat;
@@ -48,11 +48,26 @@ body {
   padding-top: 110px;
 }
 
+#about1 {
+ color: #4080bf
+ font-size: 2.0em;
+}
+
+#about2 {
+
+  padding-top: 60%;
+}
+
 #list {
   float: right;
   margin-right: 10%;
   padding: 3%;
   border: 5px inset white;
+  font-size: 2.5em;
+  font-weight: bold;
+  background-image: url('images/fclogo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #pic1 {
@@ -64,7 +79,7 @@ body {
 }
 
 #page2 {
-  height: 1100px;
+  height: 700px;
   width: 100%;
   background: #A1AB6D;
   padding-top: 150px;
@@ -79,12 +94,6 @@ body {
   color: white;
 }
 
-#applyform1 {
-  padding-left: 38%;
-  color: white;
-  padding-top: 30%;
-}
-
 h1 {
   font: Arial Verdana, sans-serif;
 }
@@ -94,19 +103,50 @@ h1 {
   color: white;
 }
 
-#page3 {
-  height: 1100px;
+#services {
+  height: 700px;
   width: 100%;
   background: #A1AB6D;
   padding-top: 150px;
-  background-image: url('images/map.png');
+  background-image: url('images/teller.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+}
+
+#about3 {
+ color: #4080bf
+ font-size: 2.0em;
+}
+
+#about4 {
+
+  padding-top: 60%;
+}
+
+
+
+#page3 {
+  height: 470px;
+  width: 100%;
+  background: #A1AB6D;
+  padding-top: 150px;
 }
 
 #contactus {
   float: right;
   padding-right: 10%;
+}
+
+#applyform1 {
+  padding-left: 38%;
+  color: white;
+  padding-top: 5%;
+}
+
+#mapwidget {
+  width: 100%;
+  padding-top: 2%;
+  border: 5px inset white;
 }
 
 #header-image {}
