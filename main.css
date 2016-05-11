@@ -208,9 +208,14 @@ h1 {
 
 .maintext {
   justify-content: space-between;
-  color: green;
-  padding-left: 25vw;
-  padding-top: 12vh;
+  color: #55aa55;
+  margin-left: 22vw;
+  margin-top: 12vh;
+  margin-right: 22vw;
+  border: 5px outset white;
+  border-radius: 7px;
+  background-color: #d9d9d9;
+
 }
 
 .logo {
