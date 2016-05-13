@@ -6,7 +6,7 @@ body {
   display: flex;
   background: white;
   margin: 0 auto;
-  font-family: georgia, times, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   height: 100%;
 }
 
@@ -31,14 +31,15 @@ body {
 }
 
 .img {
-  background-image: url("images/fastcash.png") no-repeat center center fixed;;
-
+  width: 250;
   height: 70px;
+  background-image: url('images/fastcash.png');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 #addr {
   padding-top: 5px;
-  padding-left: 32%;
 }
 
 #nav {
@@ -46,6 +47,7 @@ body {
   word-spacing: 20px;
   float: right;
   padding-right: 10px;
+  padding-bottom: 1%;
 }
 
 
@@ -74,6 +76,7 @@ body {
  font-size: 2.0em;
  padding-left: 5%;
  padding-right: 5%;
+ background-color: #d1e0e0;
 }
 
 #list {
@@ -138,12 +141,17 @@ h1 {
   color: white;
 }
 
+#fields {
+
+  background-color: #4080bf;
+  background-size: contain;
+}
+
 #services {
-  height: 800px;
+  height: 700px;
   width: 100%;
   background: #A1AB6D;
   padding-top: 150px;
-  padding-left: 3%;
   background-image: url('images/branch.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,14 +183,14 @@ h1 {
 }
 
 #contactus {
-  float: right;
-  padding-right: 10%;
+  color: #4080bf;
+  margin-left: 60%;
 }
 
 #applyform1 {
   padding-left: 38%;
   color: white;
-  padding-top: 5%;
+  padding-bottom: 2%;
 }
 
 #mapwidget {
@@ -212,19 +220,28 @@ h1 {
   margin-left: 22vw;
   margin-top: 12vh;
   margin-right: 22vw;
+  margin-bottom: 2vh;
   border: 5px outset white;
   border-radius: 7px;
   background-color: #d9d9d9;
+  padding: 1%;
+  font-family: 'Open Sans', sans-serif;
+  overflow-y: scroll;
 
 }
 
+#bizslogan {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .logo {
-  width: 35vw;
-  height: 15vh;
-  background-size: contain;
+  width: auto;
+  height: 70px;
   background-image: url('images/fastcash.png');
   background-repeat: no-repeat;
+  background-size: contain;
   margin-top: 10vh;
+  margin-left: 60%;
 }
 
 /* end of landing page specific css */
